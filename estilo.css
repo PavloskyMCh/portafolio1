@@ -110,3 +110,132 @@ html {
   color: beige;
   display: none;
 }
+/* seccion sobre mi */
+
+#sobremi {
+  max-width: 1100px;
+  margin: auto;
+  padding: 100px 15px;
+  color: #111135;
+  display: flex;
+}
+#sobremi .contenedor-foto {
+  max-width: 400px;
+  margin-right: 80px;
+}
+#sobremi .contenedor-foto img {
+  padding: 20px;
+  width: 100%;
+  border-radius: 20px;
+  background-color: transparent;
+}
+#sobremi .sobremi {
+  margin: 0 40px;
+}
+
+#sobremi .sobremi .titulo-seccion {
+  font-size: 22px;
+  text-transform: uppercase;
+  color: #111135;
+  text-decoration: underline;
+  text-decoration-color: beige;
+  text-decoration-thickness: 5px;
+}
+#sobremi .sobremi h2 {
+  font-size: 34px;
+  font-weight: bold;
+  margin: 20px 0;
+  letter-spacing: 2px;
+}
+#sobremi .sobremi h2 span {
+  color: darkcyan;
+}
+#sobremi .sobremi h3 {
+  font-size: 18;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+}
+#sobremi .sobremi {
+  font-size: 14px;
+  line-height: 25px;
+  color: #565656;
+  margin-bottom: 12px;
+}
+#sobremi .sobremi a {
+  display: inline-block;
+  text-decoration: none;
+  color: #000;
+  padding: 10px 20px;
+  border-radius: 30px;
+  border: 1px solid #000;
+  transition: 0.5s;
+}
+#sobremi .sobremi a:hover {
+  background-color: darkcyan;
+  color: #fff;
+}
+
+/* seccion servicios */
+#servicios {
+  padding: 50px 15px;
+  text-align: center;
+  background-color: #f3f3f3;
+}
+#servicios .titulo-seccion {
+  font-size: 22px;
+  text-transform: uppercase;
+  color: #111135;
+  text-decoration: underline;
+  text-decoration-color: beige;
+  text-decoration-thickness: 5px;
+}
+#servicios .fila {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1100px;
+  margin: 15px auto;
+}
+#servicios .fila .servicios {
+  max-width: 350px;
+  background-color: #fff;
+  padding: 15px;
+  margin: 0 5px;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+
+#servicios .fila .servicios:hover {
+  box-shadow: 5px 5px 10px #565656, -5px -5px 10px #8a8a8a;
+}
+#servicios .fila .servicios h4 {
+  font-size: 22px;
+  margin-bottom: 25px;
+}
+#servicios .fila .servicios .icono {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #d3d3d3;
+  padding: 20px;
+  margin-bottom: 25px;
+}
+#servicios .fila .servicios hr {
+  width: 30%;
+  margin: auto;
+  color: #000;
+  margin-bottom: 25px;
+}
+#servicios .fila .servicios ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+#servicios .fila .servicios p {
+  font-size: 14px;
+  line-height: 22px;
+}
