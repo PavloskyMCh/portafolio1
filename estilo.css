@@ -80,13 +80,14 @@ html {
   text-transform: uppercase;
   letter-spacing: 5px;
 }
+
 #inicio .contenido .presentacion h2 {
   font-size: 55px;
   margin-bottom: 25px;
   text-align: center;
 }
 #inicio .contenido .presentacion h2 span {
-  font-size: 25px;
+  font-size: 40px;
   color: darkcyan;
 }
 #inicio .contenido .presentacion .descripcion {
@@ -139,6 +140,7 @@ html {
 
 #sobremi .sobremi .titulo-seccion {
   font-size: 22px;
+  font-weight: bold;
   text-transform: uppercase;
   color: #111135;
   text-decoration: underline;
