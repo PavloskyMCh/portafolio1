@@ -82,7 +82,7 @@ html {
 }
 
 #inicio .contenido .presentacion h2 {
-  font-size: 55px;
+  font-size: 45px;
   margin-bottom: 25px;
   text-align: center;
 }
@@ -118,11 +118,12 @@ html {
 /* seccion sobre mi */
 
 #sobremi {
-  max-width: 1100px;
+  /* max-width: 1100px; */
   margin: auto;
   padding: 100px 15px;
   color: #111135;
   display: flex;
+  background-color: #f3f3f3;
 }
 #sobremi .contenedor-foto {
   max-width: 400px;
@@ -342,7 +343,6 @@ html {
   }
 }
 
-/* minuto40 */
 /*seccion portafolio*/
 #portfolio {
   max-width: 1100px;

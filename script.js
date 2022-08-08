@@ -1,4 +1,4 @@
-//Funcion que me aplica el estilo a la opciÃ²n seleccionada y quita la previamente seleccionada
+//Funcion que me aplica el estilo a la opcion seleccionada y quita la previamente seleccionada
 function seleccionar(link) {
   var opciones = document.querySelectorAll("#links  a");
   opciones[0].className = "";
@@ -18,7 +18,7 @@ function responsiveMenu() {
   }
 }
 
-//detecto el scrolling para aplicar la animaciÃ³n del la barra de habilidades
+//detecto el scrolling para aplicar la animacionn del la barra de habilidades
 window.onscroll = function () {
   efectoHabilidades();
 };
