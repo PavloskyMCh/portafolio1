@@ -123,14 +123,16 @@ html {
   padding: 100px 15px;
   color: #111135;
   display: flex;
+  justify-content: space-around;
   background-color: #f3f3f3;
 }
 #sobremi .contenedor-foto {
-  max-width: 400px;
+  max-width: 350px;
   margin-right: 80px;
+  margin-left: 20px;
 }
 #sobremi .contenedor-foto img {
-  padding: 20px;
+  padding: 0 40px;
   width: 100%;
   border-radius: 20px;
   background-color: transparent;
