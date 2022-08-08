@@ -347,25 +347,39 @@
     <section id="contacto">
       <h3 class="titulo-seccion">Contactanos ahora</h3>
       <div class="contenedor-form">
-        <form action="">
+        <form
+          action="https://formsubmit.co/8e7b6c1c586ba6f49140ba726e20d9d5"
+          method="POST"
+        >
           <div class="fila mitad">
             <input
               type="text"
+              name="nombre"
+              required
               placeholder="Nombre Completo"
               class="input-mitad"
             />
             <input
               type="email"
+              name="email"
+              required
               placeholder="Direccion de Email"
               class="input-mitad"
             />
           </div>
           <div class="fila">
-            <input type="text" placeholder="tema..." class="input-full" />
+            <input
+              type="text"
+              name="asunto"
+              required
+              placeholder="tema..."
+              class="input-full"
+            />
           </div>
           <div class="fila">
             <textarea
-              name=""
+              name="mensaje"
+              required
               id=""
               cols="30"
               rows="10"
