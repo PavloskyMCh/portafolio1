@@ -479,13 +479,32 @@ footer a {
   nav {
     display: none;
   }
+  nav/*.responsive*/ {
+    display: block;
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    position: absolute;
+    top: 48px;
+    left: 100%;
+    padding: 10px 0;
+    transition: 0.3s;
+  }
+  nav/*.responsive*/ ul {
+    display: block !important;
+    text-align: center;
+  }
+  nav/*responsive*/ ul li {
+    margin: 5px 0;
+  }
+
+  /*responsive*/
   nav.responsive {
     display: block;
     background-color: rgba(0, 0, 0, 0.8);
     width: 100%;
     position: absolute;
     top: 48px;
-    left: 0;
+    left: 0%;
     padding: 10px 0;
   }
   nav.responsive ul {
@@ -495,6 +514,8 @@ footer a {
   nav.responsive ul li {
     margin: 5px 0;
   }
+  /*responsive*/
+
   #icono-nav {
     display: block;
   }
