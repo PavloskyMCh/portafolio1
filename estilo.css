@@ -86,12 +86,12 @@ body {
 }
 
 #inicio .contenido .presentacion h2 {
-  font-size: 45px;
+  font-size: 42px;
   margin-bottom: 25px;
   text-align: center;
 }
 #inicio .contenido .presentacion h2 span {
-  font-size: 40px;
+  font-size: 42px;
   color: darkcyan;
 }
 #inicio .contenido .presentacion .descripcion {
@@ -145,6 +145,7 @@ body {
 }
 
 #sobremi .sobremi .titulo-seccion {
+  text-align: center;
   font-size: 22px;
   font-weight: bold;
   text-transform: uppercase;
@@ -174,6 +175,8 @@ body {
   line-height: 25px;
   color: #565656;
   margin-bottom: 12px;
+  text-align: justify;
+  /* text-indent: 2.5rem;*/
 }
 #sobremi .sobremi {
   font-size: 14px;
@@ -473,7 +476,7 @@ footer a {
 }
 
 /*seccion responsive*/
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 818px) {
   .redes {
     display: none;
   }
