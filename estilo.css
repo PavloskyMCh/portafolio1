@@ -474,11 +474,17 @@ footer a {
   display: inline-block;
   font-size: 20px;
 }
+.redesresponsive {
+  display: none;
+}
 
 /*seccion responsive*/
 @media screen and (max-width: 818px) {
   .redes {
     display: none;
+  }
+  .redesresponsive {
+    display: block;
   }
   nav {
     display: none;
