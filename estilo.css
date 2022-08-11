@@ -131,11 +131,12 @@ body {
 }
 #sobremi .contenedor-foto {
   max-width: 400px;
-  margin-right: 80px;
+  margin-right: 40px;
+  margin-top: 40px;
 }
 #sobremi .contenedor-foto img {
   padding: 20px;
-  width: 70%;
+  width: 100%;
   border-radius: 20px;
   background-color: transparent;
 }
