@@ -520,10 +520,18 @@ footer a {
     display: block;
   }
   #inicio .contenido .presentacion h2 {
-    font-size: 40px;
+    font-size: 32px;
+  }
+  #inicio .contenido .presentacion h2 span {
+    font-size: 32px;
   }
 
-  /*sobre mi*/
+  #inicio .contenido .presentacion .descripcion {
+    max-width: 700px;
+    margin: 15px auto;
+    font-size: 18px;
+    text-align: center;
+  }
   /* seccion SOBRE MI */
   #sobremi {
     padding: 50px 0;
